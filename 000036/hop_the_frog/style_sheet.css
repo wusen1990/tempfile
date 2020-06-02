@@ -1,0 +1,53 @@
+html { height: 100%; width: 100%; overflow: hidden; margin: 0;padding:0;}
+body { height: 100%; width: 100%; overflow: hidden; margin: 0;padding:0;background: #000000 url(loading-screen.png) no-repeat center;}
+#animation_container_default {
+	position:absolute;
+	margin:auto;
+	left:0;right:0;
+	top:0;bottom:0;
+	display:hidden;
+}
+#animation_container {
+  	visibility: hidden;
+	position:absolute;
+	margin:auto;
+	left:0;right:0;
+	top:0;bottom:0;
+	overflow: hidden;
+}
+#canvas {
+  	visibility: hidden;
+  	position: absolute;
+  	display: block;
+}
+#dom_overlay_container {
+    visibility: hidden;
+    pointer-events:none;
+    overflow:hidden;
+    width:800px;
+    height:600px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: block;
+}
+#preload {
+    position: absolute;
+    margin:auto;
+    background-color: #F2E7A2;
+    position:absolute;
+    margin:auto;
+    left:0;right:0;
+    top:0;bottom:0;
+    overflow: hidden;
+    width: 200px;
+    height: 16px;
+    border: 0;
+    padding:0px;
+ }
+#preloadFill {
+    position: absolute;
+    background-color: #8BAF43;
+    height: 16px;
+    width: 0;
+}
